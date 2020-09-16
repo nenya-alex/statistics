@@ -1,1 +1,13 @@
+server.port: 8889
 
+logging:
+  level:
+    root: INFO
+
+spring:
+  application:
+    name: statistics
+  task:
+    scheduling:
+      pool:
+        size: 30
